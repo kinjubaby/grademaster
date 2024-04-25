@@ -1,0 +1,87 @@
+table{
+    width: 100%;
+}
+.hd{
+    text-align: center;
+}
+.wd{
+    text-align: center;
+}
+.gd{
+    width:40%;
+    height: 60%;
+    border-color:rgb(204, 208, 214) ;
+    border-radius: 20px;
+}
+.fd{
+    background-color: rgb(118, 104, 206);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.btn1{
+    border-radius: 20px;
+    position:absolute;
+    top: 79%;
+    left: 40%;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+.btn2{
+    size: 30px;
+    border-radius:20px ;
+    position:absolute;
+    top: 79%;
+    left: 52%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px 7px 5px 7px;
+
+}
+.btn3{
+    border-radius:20px ;
+    position:absolute;
+    top: 85%;
+    left: 46%;
+    color: black;
+    background-color: sandybrown;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.field{
+    border-color: whitesmoke;
+    padding: 10px,5px;
+    border-radius: 20px;
+    width: auto;
+    height: 200%;
+}
+.tablinks{
+    border-color: white;
+    padding: 5px,10px;
+    border-radius: 20px;
+    color: black;
+    width: 40%;
+    height: 80%;
+    padding-inline-end: 10px,10px,10px,10px;
+}
+.btnR{
+    background-color: rgb(118, 104, 206);
+    padding: 10px,5px;
+    padding-inline-end: 10px,10px,10px,10px;
+}
+.btnO{
+    background-color: rgb(204, 208, 214);
+    padding: 10px,5px;
+    padding-inline-end: 10px,10px,10px,10px;
+}
+.home{
+    border-radius: 20px;
+    border-color: transparent;
+    width: auto;
+    height: 50%;
+    background-color: whitesmoke;
+}
