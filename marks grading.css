@@ -1,3 +1,4 @@
+/* Marks Grading */
 table{
     width: 100%;
 }
@@ -87,8 +88,7 @@ table{
 }
 
 
-
-
+/* Fail Criteria */
 table{
     border-spacing: 50px;
     margin-right: auto;
