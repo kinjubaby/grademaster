@@ -1,3 +1,11 @@
+.home{
+    border-radius: 20px;
+    border-color: transparent;
+    width: auto;
+    height: 50%;
+    background-color: whitesmoke;
+}
+
 table{
         border-spacing: 50px;
         margin-right: auto;
@@ -13,6 +21,12 @@ table{
         height: 80%;
         padding-inline-end: 10px,10px,10px,10px;
 }
+
+.tablinks a{
+    text-decoration: none;
+    color: black;
+}
+
 .field{
         border-color: whitesmoke;
         padding: 10px,5px;

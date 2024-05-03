@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marks Grading</title>
     <link rel="stylesheet" href="marks grading.css">
-    <script src="grademaster.js"></script>
+    <!-- <script src="grademaster.js"></script> -->
 </head>
 <body>
-  <!--Marks Grading-->
+ 
   <fieldset class="home">
-  <p><b>Settings | </b> <img src="home-icon.jpg" alt="home page" width="15px" height="15px"> - Exam Grading</p>
+  <p><b>Settings | </b> <img src="./icons8-home-48.png" alt="home page"  height="25px"> - Exam Grading</p>
 </fieldset>
         <fieldset class="field">
           <legend>
           <div class="tab">
-            <button class="tablinks" onclick="opentab(event,'Marks Grading')">Marks Grading</button>
-            <button class="tablinks" onclick="opentab(event,'Fail Criteria')">Fail Criteria</button>
+            <!-- <button class="tablinks" onclick="opentab(event,'Marks Grading')">Marks Grading</button> -->
+            <button class="tablinks"><a href="./Marks Grading.html">Marks Grading</a></button>
+
+            <!-- <button class="tablinks" onclick="opentab(event,'Fail Criteria')">Fail Criteria</button> -->
+            <button class="tablinks"><a href="./Fail Criteria.html">Fail Criteria</a></button>
           </div>
         </legend>
+         <!--Marks Grading-->
         <div id="marks" class="tabcontent">
         <h1 class="hd">Customise Grading</h1>
     <p class="wd"><button class="btnR"></button> Required*&nbsp; &nbsp; <button class="btnO"></button> Optional</p>
@@ -126,32 +130,7 @@
       <button type="submit" class="btn1">+ Add More Option</button>&nbsp;&nbsp;<button type="reset" class="btn2">- Remove</button><br><br>
       <button type="submit" class="btn3"><img src="Refresh.png" alt="" class="image"> Save Changes</button>
     </div>
-    <!--Fail Criteria-->
-    <div id="fail" class="tabcontent">
-      <h1 class="hd">Fail Criteria</h1>
-      <h3 class="wd"><button class="btnR"></button> Required*&nbsp; &nbsp; <button class="btnO"></button> Optional</h3>
-      <table class="fail criteria">
-          <tr>
-              <td>
-                  <b>Student</b> will be marked as <br> <b class="fa">FAILED</b> in the exams if he or <br> she obtains an <b>overall <br> percentage</b> score equal to or <br> below
-                  <fieldset class="fc">
-                      <legend class="gd">Overall %</legend>
-                  </fieldset></td>
-              <td>
-                  <b class="or">OR</b> he or she obtains a <br> <b>Subect percentage</b> score <br> equal to or below
-              <fieldset class="fc">
-                  <legend class="gd">Subject %</legend>
-              </fieldset></td>
-              <td>
-                   <br>at least <b class="in">in</b> <b>Subjects</b> 
-                  <fieldset class="fc">
-                      <legend class="gd">No. of Subjects</legend>
-                  </fieldset></td>
-          </tr>
-      </table><br><br>
-      <button class="btn" type="submit">Update</button>
-  </div>
-
+   
 </fieldset>
 </body>
 </html>
